@@ -1,0 +1,40 @@
+.banner {
+  position: relative;
+  height: 70.7vh;
+  background: url("https://www.cntravellerme.com/public/styles/1920px_900px_wide_landscape/public/images/2018/04/29/taj%20mahal%20palace%20hotel%20mumbai%20india%20(5)%20-%20lead.jpg?itok=b243fyQr&c=614670ee4bab299f14e142a953e07ed0")
+    center center;
+  /* background-repeat: no-repeat; */
+}
+.banner__info {
+  background-color: black;
+  color: white;
+  width: 300px;
+  padding-top: 25vh;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner__info > h5 {
+  margin-top: 10px;
+}
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
